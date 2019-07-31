@@ -1,0 +1,157 @@
+*{
+
+}
+
+body {
+    margin:0;
+    margin-top:calc(100vh + 18px);
+  }
+
+#showcase-sec{
+    background-color: #16181c;
+    color: #575757;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+    z-index: -100;
+    top: 0;
+    width: 100%;
+
+}
+
+#showcase-sec h1{
+    color: #f16522!important;
+    font-size: 120px;
+}
+.showcase-txt{
+    margin-top: 80px;
+}
+
+.role-txt{
+    font-size: 45px;
+    letter-spacing: 20px;  
+}
+
+.role-txt2{
+    font-size: 23px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#bio-sec{
+    height: 110vh;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.bio-wrapper{
+    margin-top: 25px;
+}
+
+
+
+.bio-txt h2{
+    color: #f16522;
+}
+
+.bio-txt p{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.stack-wrapper{
+    background-color: #fff;
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.stack-box{
+   text-align: center;
+    margin: 5px;
+}
+.stack-box img{
+    height: 70px;
+    width: 90px;
+    margin-top: 10px;
+}
+.img-box{
+    width: 300px;
+    height: 300px;
+    border: #f16522 dotted 4px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 60px;
+    padding: 15px;
+}
+.img-box img{
+    border-radius: 50%;
+}
+
+#footer-sec{
+    height: 40%;
+    width: 100%;
+    background-color: #16181c;
+
+    padding-top: 60px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+#footer-sec p{
+    color: #f16522;
+    font-size: 40px;
+}
+
+#footer-sec li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    display: inline;
+    margin: 10px;
+    font-weight: 300;
+}
+#footer-sec a{
+    color: #fff;
+}
+
+#footer-sec hr{
+    border: #f16522 solid 1px;
+}
+
+@media(max-width:900px){
+    #showcase-sec{
+        text-align: center;
+    }
+    .showcase-txt h1{
+        font-size: 35px!important;
+        
+    }
+    .role-txt{
+        font-size: 16px;
+    }
+    .role-txt2{
+        font-size: 16px;
+    }
+
+    #bio-sec{
+        text-align: center;
+        padding: 15px;
+        height: 140vh;
+    }
+    
+    #bio-sec p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .img-box{
+        margin: 0;
+    }
+
+    .footer-sec p{
+        font-size: 20px;
+        font-weight: 200;
+    }
+}
