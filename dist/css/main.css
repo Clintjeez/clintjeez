@@ -21,7 +21,7 @@ body {
 
 #showcase-sec h1{
     color: #f16522!important;
-    font-size: 120px!important;
+    font-size: 120px;
 }
 .showcase-txt{
     margin-top: 80px;
@@ -60,23 +60,98 @@ body {
     text-align: left;
 }
 
+.stack-wrapper{
+    background-color: #fff;
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 .stack-box{
-    width: 30px;
-    height: 80px;
-    margin: 2px;
+   text-align: center;
+    margin: 5px;
+}
+.stack-box img{
+    height: 70px;
+    width: 90px;
+    margin-top: 10px;
 }
 .img-box{
     width: 300px;
     height: 300px;
     border: #f16522 dotted 4px;
     border-radius: 50%;
-    margin-left: 120px;
+    margin-left: 50px;
+    margin-top: 60px;
+    padding: 15px;
+}
+.img-box img{
+    border-radius: 50%;
 }
 
-#project-sec{
-    height: 100vh;
+#footer-sec{
+    height: 40%;
     width: 100%;
     background-color: #16181c;
-    padding: 20px;
+
+    padding-top: 60px;
     width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+#footer-sec p{
+    color: #f16522;
+    font-size: 40px;
+}
+
+#footer-sec li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    display: inline;
+    margin: 10px;
+    font-weight: 300;
+}
+#footer-sec a{
+    color: #fff;
+}
+
+#footer-sec hr{
+    border: #f16522 solid 1px;
+}
+
+@media(max-width:900px){
+    #showcase-sec{
+        text-align: center;
+    }
+    .showcase-txt h1{
+        font-size: 35px!important;
+        
+    }
+    .role-txt{
+        font-size: 16px;
+    }
+    .role-txt2{
+        font-size: 16px;
+    }
+
+    #bio-sec{
+        text-align: center;
+        padding: 15px;
+        height: 140vh;
+    }
+    
+    #bio-sec p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .img-box{
+        margin: 0;
+    }
+
+    .footer-sec p{
+        font-size: 20px;
+        font-weight: 200;
+    }
 }
