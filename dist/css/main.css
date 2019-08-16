@@ -1,13 +1,11 @@
-*{
-
-}
+* {}
 
 body {
-    margin:0;
-    margin-top:calc(100vh + 18px);
-  }
+    margin: 0;
+    margin-top: calc(100vh + 18px);
+}
 
-#showcase-sec{
+#showcase-sec {
     background-color: #16181c;
     color: #575757;
     height: 100vh;
@@ -19,82 +17,78 @@ body {
 
 }
 
-#showcase-sec h1{
-    color: #f16522!important;
+#showcase-sec h1 {
+    color: #f16522 !important;
     font-size: 120px;
 }
-.showcase-txt{
+
+.showcase-txt {
     margin-top: 80px;
 }
 
-.role-txt{
+.role-txt {
     font-size: 45px;
-    letter-spacing: 20px;  
+    letter-spacing: 20px;
     margin-left: 0;
-    padding:0;
+    padding: 0;
 }
 
-.role-txt2{
+.role-txt2 {
     font-size: 25px;
     font-weight: 300;
     letter-spacing: 5px;
 }
 
-#bio-sec{
-    height: 140vh;
+#bio-sec {
+    height: 400px;
     width: 100%;
     padding-top: 40px;
 }
 
-.bio-wrapper{
+.bio-wrapper {
     margin-top: 40px;
 }
 
 
-
-.bio-txt h2{
+.bio-txt h2 {
     color: #f16522;
     letter-spacing: 2px;
     font-weight: 300;
 }
 
-.bio-txt p{
+.bio-txt p {
     font-size: 25px;
     font-weight: 300;
     text-align: left;
 }
 
-.stack-wrapper{
+.stack-wrapper {
     background-color: #fff;
-    height: 500px;
-    margin-top: 80px;
-    margin-bottom: 60px;
+    height: 200px;
 }
 
-.stack-wrapper h2{
+.stack-wrapper h2 {
     color: #f16522;
     letter-spacing: 2px;
     font-weight: 300;
-    
 }
 
-.stack-box{
-   text-align: center;
-    margin: 5px;
-    padding: 20px;
-   
+
+.stack {
+    display: inline;
 }
-.stack-box img{
-    height: 100px;
-    width: 100px;
-    margin-top: 10px;
-    padding: 20px;
-    filter: grayscale(100%);
+
+.stack img {
+    height: 70px;
+    width: 70px;
+    filter: grayscale();
 }
-.stack-box img:hover{
+
+.stack img:hover {
     filter: none;
 }
-.img-box{
+
+.img-box {
     width: 300px;
     height: 300px;
     border: #f16522 dotted 4px;
@@ -103,11 +97,22 @@ body {
     margin-top: 60px;
     padding: 15px;
 }
-.img-box img{
+
+.img-box img {
     border-radius: 50%;
 }
 
-#footer-sec{
+#project-sec {
+    background-color: #16181c;
+    padding-top: 80px;
+}
+
+#project-sec img {
+    margin: 5px !important;
+    border: #f16522 dotted 2px;
+}
+
+#footer-sec {
     height: 40%;
     width: 100%;
     background-color: #16181c;
@@ -117,82 +122,86 @@ body {
     text-align: center;
 }
 
-#footer-sec p{
+#footer-sec p {
     color: #f16522;
     font-size: 40px;
     font-weight: 300;
     letter-spacing: 2px;
 }
 
-#footer-sec span{
+#footer-sec span {
     font-size: 24px;
     font-weight: 300;
     text-align: center;
     margin: 20px;
     font-weight: 300;
     padding: 10px;
-    -webkit-box-shadow: -1px 2px 38px -3px rgba(0,0,0,0.78);
-    -moz-box-shadow: -1px 2px 38px -3px rgba(0,0,0,0.78);
-    box-shadow: -1px 2px 38px -3px rgba(0,0,0,0.78);
+    -webkit-box-shadow: -1px 2px 38px -3px rgba(0, 0, 0, 0.78);
+    -moz-box-shadow: -1px 2px 38px -3px rgba(0, 0, 0, 0.78);
+    box-shadow: -1px 2px 38px -3px rgba(0, 0, 0, 0.78);
 }
-#footer-sec a{
+
+#footer-sec a {
     color: #fff;
 }
 
-#footer-sec hr{
+#footer-sec hr {
     border: #f16522 solid 1px;
 }
 
-@media(max-width:900px){
-    #showcase-sec{
+@media(max-width:900px) {
+    #showcase-sec {
         text-align: center;
         padding: 15px;
     }
-    .showcase-txt h1{
-        font-size: 35px!important;
+
+    .showcase-txt h1 {
+        font-size: 35px !important;
         text-align: center;
-        
+
     }
-    .role-txt{
+
+    .role-txt {
         font-size: 16px;
         text-align: center;
         margin-left: 20px;
     }
-    .role-txt2{
+
+    .role-txt2 {
         font-size: 16px;
     }
 
-    #bio-sec{
+    #bio-sec {
         text-align: center;
         padding: 15px;
-        height: 165vh;
+        height: 600px;
         margin-bottom: 30px;
     }
-    
-    #bio-sec p{
+
+    #bio-sec p {
         font-size: 16px;
         text-align: center;
     }
-    .stack-box img{
-        padding: 0;
-        width: 70px;
-        height: 60px;
-        
+
+    .stack {
+        width: 300px !important;
     }
-    .img-box{
+
+    .img-box {
         margin: 0;
         height: 200px;
         width: 200px;
         text-align: center;
         margin-left: 55px;
     }
-    
-    
-    #footer-sec p{
+
+
+    #footer-sec p {
         font-size: 27px;
         font-weight: 200;
     }
-    #footer-sec span{
+
+    #footer-sec span {
         margin-top: 70px;
         box-shadow: none;
         font-weight: 300;
